@@ -1,0 +1,86 @@
+html{
+  background-color: #dbd6cf;
+  color: black;
+  font-family: Arial,sans-serif;
+  width:584px;
+}
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-style: normal;
+  color: white;
+  font-size: 2.2rem;
+  background-color: grey;
+  display: inline-block;
+  padding: 4em 3em 4em 3em;
+
+
+}
+
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-style: normal;
+  color: #79756f;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+  font-style: normal;
+  color: #79756f;
+  font-size: 1.2rem;
+}
+
+ol {
+  text-decoration: underline;
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline;
+}
+a {
+  color: white;
+  background-color:maroon;
+
+}
+
+nav ol {
+text-decoration: none
+}
+
+a:hover {
+  color: red;
+}
+
+ul {
+  list-style-type:lower-roman;
+}
+p {
+  color: #79756f;
+  font-size: 0.8rem;
+  text-align: right;
+}
+.grey {
+  color: #79756f; }
+
+  .greyquote {
+    color: #79756f;
+    font-size: 3rem;
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+  .italic {font-style: italic;}
+
+  .largeitalic {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+  }
+  .caption {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  .circles {
+    list-style: circle;
+    padding: 20px;
+  }
