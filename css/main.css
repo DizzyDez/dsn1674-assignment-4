@@ -2,7 +2,7 @@ html{
   background-color: #dbd6cf;
   color: black;
   font-family: Arial,sans-serif;
-  width:584px;
+  font-size:1.2rem;
 }
 
 h1{
@@ -10,17 +10,19 @@ h1{
   font-style: normal;
   color: white;
   font-size: 2.2rem;
-  background-color: grey;
-  display: inline-block;
-  padding: 4em 3em 4em 3em;
-
-
+  text-align: center;
 }
 
+
+header {
+  background-color: grey;
+  padding: 3em 3em 3em 3em
+
+}
 h2 {
   font-family: 'Alfa Slab One', cursive;
   font-style: normal;
-  color: #79756f;
+  color: #dbd6cf;
   font-size: 1.8rem;
 }
 
@@ -32,21 +34,27 @@ h3 {
 }
 
 ol {
-  text-decoration: underline;
+
   list-style: none;
   padding: 0;
 }
-nav li {
+
+ol li {
   display: inline;
 }
-a {
-  color: white;
-  background-color:maroon;
+nav a {
+    color: white;
+    background-color:maroon;
+    text-decoration:none;
+    display:inline-block;
+    border-radius: 10px;
+    padding:1em;
+    margin:0.2em;
 
 }
-
-nav ol {
-text-decoration: none
+a {
+  color: maroon;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -61,6 +69,20 @@ p {
   font-size: 0.8rem;
   text-align: right;
 }
+figure {
+  border: 3px solid grey;
+  border-radius: 1em;
+  padding:2em;
+
+}
+img {
+  width:100%;
+}
+footer {
+  background-color: grey;
+  padding:.5em 1em .5em 1em
+}
+
 .grey {
   color: #79756f; }
 
